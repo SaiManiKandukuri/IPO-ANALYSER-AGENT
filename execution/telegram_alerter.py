@@ -118,14 +118,23 @@ IMPORTANT RULES:
     
     if groq_api_key:
         try:
+            import time
             client = Groq(api_key=groq_api_key)
-            completion = client.chat.completions.create(
-                model="groq/compound",
-                messages=[{"role": "user", "content": system_prompt}],
-                temperature=0.7,
-                max_completion_tokens=300
-            )
-            reasoning_tenglish = completion.choices[0].message.content.strip()
+            max_retries = 3
+            for attempt in range(max_retries):
+                try:
+                    completion = client.chat.completions.create(
+                        model="groq/compound",
+                        messages=[{"role": "user", "content": system_prompt}],
+                        temperature=0.7,
+                        max_completion_tokens=300
+                    )
+                    reasoning_tenglish = completion.choices[0].message.content.strip()
+                    break # Success, exit retry loop
+                except Exception as inner_e:
+                    if attempt == max_retries - 1:
+                        raise inner_e # Re-raise if all retries failed
+                    time.sleep(2) # Wait 2 seconds before retrying
         except Exception as e:
             reasoning_tenglish = f"• Groq API Error: {str(e)}"
             

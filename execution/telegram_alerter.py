@@ -106,8 +106,9 @@ If Status is VALID, explain why we selected the Top Pick (mentioning GMP, Allotm
 If Status is INVALID, explain why we should NOT apply to any of the open IPOs (mentioning weak GMP/loss risk, capital block overlap, and saving capital for next week).
 
 IMPORTANT RULES: 
-- DO NOT use complex financial jargon like "composite score" or "conviction".
-- Use extremely simple words that a normal beginner retail investor can understand (e.g., "chances", "profit", "risk").
+- DO NOT use complex financial jargon like "composite score" or "conviction" or "capital block overlap".
+- Write in extremely casual, conversational, everyday Telugu (Tenglish) like you are texting a friend. Use very simple words like "money", "dabbulu", "profit", and "chances".
+- Keep sentences short, punchy, and easy to read. Do not write long, complicated paragraphs.
 - Logic Rule: If an IPO has a LARGE Issue Size and a LOW Retail Subscription multiplier, this means the chances of getting an allotment are HIGH (not low). Ensure your reasoning reflects this correctly!
 - Format your response EXACTLY as bullet points starting with '•'. No extra intro/outro text.
 """

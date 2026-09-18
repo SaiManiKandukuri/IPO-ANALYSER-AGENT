@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Scraper
-        run: python ipo_scraper_json_db.py
+        run: python execution/ipo_scraper_json_db.py
 
       - name: Commit and Push Changes
         run: |

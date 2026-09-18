@@ -159,12 +159,13 @@ def main():
     results.sort(key=lambda x: (x['Open_Date'], x['Close_Date']), reverse=True)
     
     # Dump to JSON file
-    json_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ipo_data.json')
+    # Output to the parent directory (root deliverables)
+    json_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'ipo_data.json')
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(results, f, indent=4, ensure_ascii=False)
         
     # Store in SQLite database
-    db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'ipo_data.db')
+    db_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'ipo_data.db')
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     

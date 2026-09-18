@@ -108,6 +108,7 @@ If Status is INVALID, explain why we should NOT apply to any of the open IPOs (m
 IMPORTANT RULES: 
 - DO NOT use complex financial jargon like "composite score" or "conviction".
 - Use extremely simple words that a normal beginner retail investor can understand (e.g., "chances", "profit", "risk").
+- Logic Rule: If an IPO has a LARGE Issue Size and a LOW Retail Subscription multiplier, this means the chances of getting an allotment are HIGH (not low). Ensure your reasoning reflects this correctly!
 - Format your response EXACTLY as bullet points starting with '•'. No extra intro/outro text.
 """
     

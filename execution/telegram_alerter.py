@@ -37,9 +37,10 @@ def main():
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
-    # Use actual current date, or a mocked date for testing if needed
-    # today = datetime.strptime("2026-09-19", "%Y-%m-%d").date()
-    today = datetime.now().date()
+    # Calculate current date in IST (+5:30) because the server runs in UTC
+    utc_now = datetime.utcnow()
+    ist_now = utc_now + timedelta(hours=5, minutes=30)
+    today = ist_now.date()
     today_str = today.strftime('%Y-%m-%d')
 
     open_ipos = []
@@ -104,7 +105,10 @@ Qualified Top Pick: {json.dumps({k: v for k,v in top_pick.items() if k not in ['
 If Status is VALID, explain why we selected the Top Pick (mentioning GMP, Allotment chances/Issue size, and capital unblock timing). 
 If Status is INVALID, explain why we should NOT apply to any of the open IPOs (mentioning weak GMP/loss risk, capital block overlap, and saving capital for next week).
 
-Format your response EXACTLY as bullet points starting with '•'. No extra intro/outro text.
+IMPORTANT RULES: 
+- DO NOT use complex financial jargon like "composite score" or "conviction".
+- Use extremely simple words that a normal beginner retail investor can understand (e.g., "chances", "profit", "risk").
+- Format your response EXACTLY as bullet points starting with '•'. No extra intro/outro text.
 """
     
     groq_api_key = os.environ.get("GROQ_API_KEY")

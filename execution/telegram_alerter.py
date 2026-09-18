@@ -123,8 +123,10 @@ Format your response EXACTLY as bullet points starting with '•'. No extra intr
         except Exception as e:
             reasoning_tenglish = f"• Groq API Error: {str(e)}"
             
-    # Format Telegram Alert
-    current_time = datetime.now().strftime('%d-%m-%Y %I:%M %p')
+    # Format Telegram Alert (Convert UTC to IST: +5:30)
+    utc_now = datetime.utcnow()
+    ist_now = utc_now + timedelta(hours=5, minutes=30)
+    current_time = ist_now.strftime('%d-%m-%Y %I:%M %p')
     
     if status == "VALID":
         msg = f"🎯 *Hourly IPO Strategy Alert* ({current_time})\n\n"

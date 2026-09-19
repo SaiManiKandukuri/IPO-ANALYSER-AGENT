@@ -103,7 +103,7 @@ Open IPOs today: {json.dumps([{k: v for k,v in ipo.items() if k not in ['c_date_
 Qualified Top Pick: {json.dumps({k: v for k,v in top_pick.items() if k not in ['c_date_obj', 't1_date', 't2_date']} if top_pick else None, indent=2)}
 
 If Status is VALID, explain why we selected the Top Pick (mentioning GMP, Allotment chances/Issue size, and capital unblock timing). 
-If Status is INVALID, explain why we should NOT apply to any of the open IPOs (mentioning weak GMP/loss risk, capital block overlap, and saving capital for next week).
+If Status is INVALID, directly explain that none of the open IPOs are worth applying for (mentioning weak GMP/loss risk, capital block overlap, and saving capital for next week). Do NOT literally use the word "INVALID" in your response.
 
 IMPORTANT RULES: 
 - DO NOT use complex financial jargon like "composite score" or "conviction" or "capital block overlap".

@@ -1,7 +1,7 @@
 import json
 import os
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from groq import Groq
 
 # 2026 NSE Holidays (Format: YYYY-MM-DD)
@@ -38,7 +38,7 @@ def main():
         data = json.load(f)
 
     # Calculate current date in IST (+5:30) because the server runs in UTC
-    utc_now = datetime.utcnow()
+    utc_now = datetime.now(timezone.utc)
     ist_now = utc_now + timedelta(hours=5, minutes=30)
     today = ist_now.date()
     today_str = today.strftime('%Y-%m-%d')
@@ -139,7 +139,7 @@ IMPORTANT RULES:
             reasoning_tenglish = f"• Groq API Error: {str(e)}"
             
     # Format Telegram Alert (Convert UTC to IST: +5:30)
-    utc_now = datetime.utcnow()
+    utc_now = datetime.now(timezone.utc)
     ist_now = utc_now + timedelta(hours=5, minutes=30)
     current_time = ist_now.strftime('%d-%m-%Y %I:%M %p')
     

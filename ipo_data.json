@@ -14,7 +14,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 14.81,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Moneyview",
@@ -31,7 +31,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "ArMee Infotech",
@@ -48,7 +48,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.27,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Swastika Infra",
@@ -65,7 +65,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.62,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Elevate Campuses",
@@ -82,7 +82,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 4.42,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Adroit Industries",
@@ -99,7 +99,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 23.88,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Varmora Granito",
@@ -116,7 +116,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 6.08,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Sonaselection India",
@@ -126,31 +126,31 @@
         "GMP": 0.0,
         "Expected_Gain_Pct": 0.0,
         "Issue_Size_Cr": 141.57,
-        "Retail_Sub": 1.46,
+        "Retail_Sub": 1.72,
         "QIB_Sub": 0.46,
-        "NII_Sub": 0.85,
-        "Total_Sub": 1.05,
+        "NII_Sub": 1.0,
+        "Total_Sub": 1.2,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "NSE",
         "Open_Date": "2026-09-17",
         "Close_Date": "2026-09-21",
         "Price_Band": "1785",
-        "GMP": 57.0,
-        "Expected_Gain_Pct": 3.19,
+        "GMP": 72.0,
+        "Expected_Gain_Pct": 4.03,
         "Issue_Size_Cr": 22561.57,
-        "Retail_Sub": 0.84,
-        "QIB_Sub": 1.83,
-        "NII_Sub": 2.09,
-        "Total_Sub": 1.39,
+        "Retail_Sub": 0.93,
+        "QIB_Sub": 2.19,
+        "NII_Sub": 2.73,
+        "Total_Sub": 1.67,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
-        "Composite_Score": 3.41,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Composite_Score": 4.37,
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Hero Motors",
@@ -167,7 +167,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 3.21,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Jindal Supreme",
@@ -184,7 +184,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 109.13,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "SS Retail",
@@ -201,7 +201,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 127.96,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Manika Plastech",
@@ -218,7 +218,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 5.76,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Veegaland Developers",
@@ -235,24 +235,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 9.88,
-        "Run_Timestamp": "2026-09-21 05:01:09"
-    },
-    {
-        "Company": "Karamtara Engineering",
-        "Open_Date": "2026-09-09",
-        "Close_Date": "2026-09-11",
-        "Price_Band": "254",
-        "GMP": 46.0,
-        "Expected_Gain_Pct": 18.11,
-        "Issue_Size_Cr": 875.0,
-        "Retail_Sub": 13.98,
-        "QIB_Sub": 168.19,
-        "NII_Sub": 51.17,
-        "Total_Sub": 66.01,
-        "Bidding_Status": "Closed",
-        "Verdict": "Speculative / Risky",
-        "Composite_Score": 63.38,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "LCC Projects",
@@ -269,7 +252,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 85.78,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Steamhouse",
@@ -286,7 +269,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 43.4,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Manipal Payment and Identity Solutions",
@@ -303,7 +286,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.9,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Asset Reconstruction",
@@ -320,7 +303,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 17.3,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     },
     {
         "Company": "Rentomojo",
@@ -337,6 +320,6 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 75.36,
-        "Run_Timestamp": "2026-09-21 05:01:09"
+        "Run_Timestamp": "2026-09-21 06:01:12"
     }
 ]

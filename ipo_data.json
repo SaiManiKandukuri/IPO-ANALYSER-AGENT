@@ -14,7 +14,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "A-One Steels",
@@ -31,7 +31,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 14.81,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Moneyview",
@@ -48,7 +48,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 14.71,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "ArMee Infotech",
@@ -65,7 +65,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 3.2,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Swastika Infra",
@@ -82,7 +82,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 4.32,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Elevate Campuses",
@@ -99,7 +99,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 4.42,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Adroit Industries",
@@ -116,7 +116,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 23.88,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Varmora Granito",
@@ -133,7 +133,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 6.08,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Sonaselection India",
@@ -150,7 +150,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "NSE",
@@ -167,7 +167,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 4.68,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Hero Motors",
@@ -184,7 +184,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 3.21,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Jindal Supreme",
@@ -201,15 +201,15 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 109.13,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "SS Retail",
         "Open_Date": "2026-09-16",
         "Close_Date": "2026-09-18",
         "Price_Band": "424",
-        "GMP": 148.0,
-        "Expected_Gain_Pct": 34.91,
+        "GMP": 140.0,
+        "Expected_Gain_Pct": 33.02,
         "Issue_Size_Cr": 500.0,
         "Retail_Sub": 35.81,
         "QIB_Sub": 214.22,
@@ -217,8 +217,8 @@
         "Total_Sub": 107.41,
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
-        "Composite_Score": 122.18,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Composite_Score": 115.57,
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Manika Plastech",
@@ -235,7 +235,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 5.76,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Veegaland Developers",
@@ -252,7 +252,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 9.88,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Karamtara Engineering",
@@ -269,7 +269,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 63.38,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Steamhouse",
@@ -286,7 +286,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 43.4,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Manipal Payment and Identity Solutions",
@@ -303,7 +303,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.9,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Asset Reconstruction",
@@ -320,7 +320,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 17.3,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     },
     {
         "Company": "Rentomojo",
@@ -337,6 +337,6 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 75.36,
-        "Run_Timestamp": "2026-09-21 18:01:19"
+        "Run_Timestamp": "2026-09-21 19:01:13"
     }
 ]

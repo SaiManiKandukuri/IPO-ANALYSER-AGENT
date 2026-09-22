@@ -121,10 +121,10 @@ IMPORTANT RULES:
             client = Groq(api_key=groq_api_key)
             # List of fallback models from highest reasoning capability to lowest
             groq_models = [
-                "llama-3.1-70b-versatile",
-                "llama3-70b-8192",
+                "llama-3.3-70b-versatile",
                 "llama-3.1-8b-instant",
-                "gemma2-9b-it"
+                "llama3-70b-8192",
+                "llama3-8b-8192"
             ]
             
             for model_name in groq_models:

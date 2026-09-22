@@ -121,6 +121,10 @@ IMPORTANT RULES:
             client = Groq(api_key=groq_api_key)
             # List of fallback models from highest reasoning capability to lowest
             groq_models = [
+                "openai/gpt-oss-120b",
+                "openai/gpt-oss-20b",
+                "openai/gpt-oss-safeguard-20b",
+                "qwen/qwen3.8-27b",
                 "llama-3.3-70b-versatile",
                 "llama-3.1-8b-instant",
                 "llama3-70b-8192",

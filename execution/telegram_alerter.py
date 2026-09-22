@@ -124,7 +124,7 @@ IMPORTANT RULES:
                 "llama-3.1-70b-versatile",
                 "llama3-70b-8192",
                 "llama-3.1-8b-instant",
-                "mixtral-8x7b-32768"
+                "gemma2-9b-it"
             ]
             
             for model_name in groq_models:

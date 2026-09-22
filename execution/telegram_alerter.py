@@ -27,12 +27,15 @@ def get_next_business_day(date_obj, add_days=1):
             added += 1
     return current
 
-def generate_tenglish_reasoning(status, top_pick, is_clash):
+def generate_tenglish_reasoning(status, top_pick, is_clash, num_open_ipos):
     if status == "INVALID":
         if is_clash:
             return "• Ee roju open unna IPOs ki apply cheyakudadhu. Endukante, multiple IPOs okesari open unnai. Okavela vatiki apply chesthe, mee dabbulu (funds) ekkuva rojulapatu block aypothayi. Ippudu risk theeskuni funds block cheskovadam kante, next week oche manchi IPOs kosam money save cheskovadam chala better. So, ivanni skip cheseyandi."
         else:
-            return "• Present ga open unna ye IPO lo kooda manchi GMP (Grey Market Premium) ledu. GMP thakkuva undi ante, listing roju profit oche chances chala thakkuva, sometimes loss kuda ravochu. Dabbulu waste cheskokunda, safe ga undandi. Ee IPOs anni skip cheseyandi."
+            if num_open_ipos == 1:
+                return "• Present ga open unna ee okka IPO lo kooda manchi GMP (Grey Market Premium) ledu. GMP thakkuva undi ante, listing roju profit oche chances chala thakkuva, sometimes loss kuda ravochu. Dabbulu waste cheskokunda, safe ga undandi. Ee IPO ni skip cheseyandi."
+            else:
+                return "• Present ga open unna ye IPO lo kooda manchi GMP (Grey Market Premium) ledu. GMP thakkuva undi ante, listing roju profit oche chances chala thakkuva, sometimes loss kuda ravochu. Dabbulu waste cheskokunda, safe ga undandi. Ee IPOs anni skip cheseyandi."
     else:
         # VALID Top Pick
         comp = top_pick.get('Company', 'Ee')
@@ -133,7 +136,7 @@ def main():
         status = "INVALID"
 
     # Generate deterministic Tenglish reasoning
-    reasoning_tenglish = generate_tenglish_reasoning(status, top_pick, is_clash)
+    reasoning_tenglish = generate_tenglish_reasoning(status, top_pick, is_clash, len(open_ipos))
             
     # Format Telegram Alert (Convert UTC to IST: +5:30)
     utc_now = datetime.now(timezone.utc)
@@ -151,7 +154,11 @@ def main():
         msg += reasoning_tenglish
     else:
         msg = f"🎯 *Hourly IPO Strategy Alert* ({current_time})\n\n"
-        msg += f"📋 *Currently Open IPOs Status:*\n"
+        if len(open_ipos) == 1:
+            msg += f"📋 *Currently Open IPO Status:*\n"
+        else:
+            msg += f"📋 *Currently Open IPOs Status:*\n"
+            
         for ipo in open_ipos:
             msg += f"• *{ipo['Company']}* | GMP: ₹{ipo.get('GMP', 0)} ({ipo['Expected_Gain_Pct']}%) | Size: ₹{ipo['Issue_Size_Cr']}Cr | Total Sub: {ipo['Total_Sub']}x | Retail: {ipo['Retail_Sub']}x -> ❌ Failed (GMP < 20%)\n"
         

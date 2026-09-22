@@ -184,7 +184,18 @@ IMPORTANT RULES:
         try:
             r = requests.post(url, json=payload)
             if r.status_code != 200:
-                print("Failed to send Telegram message:", r.text)
+                print("Failed to send Telegram message with Markdown:", r.text)
+                # Fallback: The failure is almost certainly due to Telegram's strict Markdown parser choking on 
+                # a stray '_' or '*' in the AI text or API error string. Retry without Markdown.
+                print("Retrying Telegram send without Markdown formatting...")
+                payload.pop("parse_mode", None)
+                r2 = requests.post(url, json=payload)
+                if r2.status_code != 200:
+                    print("Failed to send Telegram message completely:", r2.text)
+                else:
+                    print("Successfully sent Telegram message using plaintext fallback.")
+            else:
+                print("Successfully sent Telegram message.")
         except Exception as e:
             print(f"Error connecting to Telegram: {e}")
 

@@ -118,23 +118,28 @@ IMPORTANT RULES:
     
     if groq_api_key:
         try:
-            import time
             client = Groq(api_key=groq_api_key)
-            max_retries = 3
-            for attempt in range(max_retries):
+            # List of fallback models from highest reasoning capability to lowest
+            groq_models = [
+                "llama-3.1-70b-versatile",
+                "llama3-70b-8192",
+                "llama-3.1-8b-instant",
+                "mixtral-8x7b-32768"
+            ]
+            
+            for model_name in groq_models:
                 try:
                     completion = client.chat.completions.create(
-                        model="groq/compound",
+                        model=model_name,
                         messages=[{"role": "user", "content": system_prompt}],
                         temperature=0.7,
                         max_completion_tokens=300
                     )
                     reasoning_tenglish = completion.choices[0].message.content.strip()
-                    break # Success, exit retry loop
-                except Exception as inner_e:
-                    if attempt == max_retries - 1:
-                        raise inner_e # Re-raise if all retries failed
-                    time.sleep(2) # Wait 2 seconds before retrying
+                    break # Success! Break out of the model loop
+                except Exception as e:
+                    reasoning_tenglish = f"• Groq API Error ({model_name}): {str(e)}"
+                    continue
         except Exception as e:
             reasoning_tenglish = f"• Groq API Error: {str(e)}"
             

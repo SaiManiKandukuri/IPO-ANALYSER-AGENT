@@ -2,7 +2,6 @@ import json
 import os
 import requests
 from datetime import datetime, timedelta, timezone
-from groq import Groq
 
 # 2026 NSE Holidays (Format: YYYY-MM-DD)
 HOLIDAYS_2026 = {
@@ -27,6 +26,47 @@ def get_next_business_day(date_obj, add_days=1):
         if is_business_day(current):
             added += 1
     return current
+
+def generate_tenglish_reasoning(status, top_pick, is_clash):
+    if status == "INVALID":
+        if is_clash:
+            return "• Ee roju open unna IPOs ki apply cheyakudadhu. Endukante, multiple IPOs okesari open unnai. Okavela vatiki apply chesthe, mee dabbulu (funds) ekkuva rojulapatu block aypothayi. Ippudu risk theeskuni funds block cheskovadam kante, next week oche manchi IPOs kosam money save cheskovadam chala better. So, ivanni skip cheseyandi."
+        else:
+            return "• Present ga open unna ye IPO lo kooda manchi GMP (Grey Market Premium) ledu. GMP thakkuva undi ante, listing roju profit oche chances chala thakkuva, sometimes loss kuda ravochu. Dabbulu waste cheskokunda, safe ga undandi. Ee IPOs anni skip cheseyandi."
+    else:
+        # VALID Top Pick
+        comp = top_pick.get('Company', 'Ee')
+        gmp = top_pick.get('Expected_Gain_Pct', 0.0)
+        
+        # Safely parse size and retail sub, defaulting to 0 if '-'
+        try:
+            size_str = str(top_pick.get('Issue_Size_Cr', '0')).replace(',', '')
+            size = float(size_str) if size_str != '-' else 0.0
+        except ValueError:
+            size = 0.0
+            
+        try:
+            ret_str = str(top_pick.get('Retail_Sub', '0')).replace(',', '')
+            ret_sub = float(ret_str) if ret_str != '-' else 0.0
+        except ValueError:
+            ret_sub = 0.0
+            
+        c_date = top_pick.get('Close_Date', '')
+
+        p1 = f"• *{comp}* IPO lo apply cheyadaniki main reason enti ante, deeni GMP chala strong ga {gmp}% undi. Ante listing roju manchi profit expect cheyochu."
+        
+        if size >= 100.0 and ret_sub < 30.0:
+            p2 = f"• Inko plus point enti ante, ee IPO issue size peddadi (₹{size}Cr), mariyu retail quota inka {ret_sub}x mathrame subscribe ayindi. Kabatti manaku allotment oche chances chala ekkuva untayi!"
+        elif size >= 100.0 and ret_sub >= 30.0:
+            p2 = f"• Ee IPO issue size peddadi (₹{size}Cr) aina kooda, retail quota already {ret_sub}x heavy ga subscribe aypoyindi. Allotment chance thakkuva unna, demand heavy ga undi kabatti kachithanga try cheyali!"
+        elif size < 100.0 and ret_sub < 30.0:
+            p2 = f"• Idi oka chinna IPO (Size: ₹{size}Cr), kani retail quota inka {ret_sub}x mathrame subscribe ayindi. Competition inka peragakamunde apply chesthe allotment chance manchiga untundi!"
+        else: # size < 100.0 and ret_sub >= 30.0
+            p2 = f"• Ee IPO issue size chala chinnadi (₹{size}Cr), mariyu retail quota already {ret_sub}x chala heavy ga subscribe ayindi. Allotment oche chance chala thakkuva unna kooda, list ayithe mathram super profits isthundi kabatti try cheyali."
+        
+        p3 = f"• Ee IPO close date {c_date}. Meeru ippudu apply chesthe, allotment tarvata just 2-3 working days lo mee capital unblock aypothundi. So, mee money ekkuva rojulapatu stuck aypodu."
+        
+        return f"{p1}\n{p2}\n{p3}"
 
 def main():
     json_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'ipo_data.json')
@@ -92,60 +132,8 @@ def main():
         top_pick = None
         status = "INVALID"
 
-    # Construct Groq Prompt
-    system_prompt = f"""You are an institutional Indian Stock Market IPO evaluation agent.
-Your job is to write a short Telegram reasoning section in "Tenglish" (Telugu spelled in English, e.g. "Ee IPO lo GMP bagundi...").
-Do not write in English, and do not write in Telugu script. ONLY Tenglish.
-
-Status: {status}
-Clash Existed: {is_clash}
-Open IPOs today: {json.dumps([{k: v for k,v in ipo.items() if k not in ['c_date_obj', 't1_date', 't2_date']} for ipo in open_ipos], indent=2)}
-Qualified Top Pick: {json.dumps({k: v for k,v in top_pick.items() if k not in ['c_date_obj', 't1_date', 't2_date']} if top_pick else None, indent=2)}
-
-If Status is VALID, explain why we selected the Top Pick (mentioning GMP, Allotment chances/Issue size, and capital unblock timing). 
-If Status is INVALID, directly explain that none of the open IPOs are worth applying for (mentioning weak GMP/loss risk, capital block overlap, and saving capital for next week). Do NOT literally use the word "INVALID" in your response.
-
-IMPORTANT RULES: 
-- DO NOT use complex financial jargon like "composite score" or "conviction" or "capital block overlap".
-- Write in extremely casual, conversational, everyday Telugu (Tenglish) like you are texting a friend. Use very simple words like "money", "dabbulu", "profit", and "chances".
-- Keep sentences short, punchy, and easy to read. Do not write long, complicated paragraphs.
-- Logic Rule: If an IPO has a LARGE Issue Size and a LOW Retail Subscription multiplier, this means the chances of getting an allotment are HIGH (not low). Ensure your reasoning reflects this correctly!
-- Format your response EXACTLY as bullet points starting with '•'. No extra intro/outro text.
-"""
-    
-    groq_api_key = os.environ.get("GROQ_API_KEY")
-    reasoning_tenglish = "• API Key missing, automated reasoning failed."
-    
-    if groq_api_key:
-        try:
-            client = Groq(api_key=groq_api_key)
-            # List of fallback models from highest reasoning capability to lowest
-            groq_models = [
-                "openai/gpt-oss-120b",
-                "openai/gpt-oss-20b",
-                "openai/gpt-oss-safeguard-20b",
-                "qwen/qwen3.8-27b",
-                "llama-3.3-70b-versatile",
-                "llama-3.1-8b-instant",
-                "llama3-70b-8192",
-                "llama3-8b-8192"
-            ]
-            
-            for model_name in groq_models:
-                try:
-                    completion = client.chat.completions.create(
-                        model=model_name,
-                        messages=[{"role": "user", "content": system_prompt}],
-                        temperature=0.7,
-                        max_completion_tokens=300
-                    )
-                    reasoning_tenglish = completion.choices[0].message.content.strip()
-                    break # Success! Break out of the model loop
-                except Exception as e:
-                    reasoning_tenglish = f"• Groq API Error ({model_name}): {str(e)}"
-                    continue
-        except Exception as e:
-            reasoning_tenglish = f"• Groq API Error: {str(e)}"
+    # Generate deterministic Tenglish reasoning
+    reasoning_tenglish = generate_tenglish_reasoning(status, top_pick, is_clash)
             
     # Format Telegram Alert (Convert UTC to IST: +5:30)
     utc_now = datetime.now(timezone.utc)

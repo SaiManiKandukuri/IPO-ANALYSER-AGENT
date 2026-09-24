@@ -14,7 +14,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 5.99,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "SRIT India",
@@ -31,7 +31,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 9.23,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Runwal Enterprises",
@@ -48,7 +48,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 5.57,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "German Green Steel",
@@ -65,7 +65,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 17.27,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Orient Cables",
@@ -82,7 +82,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 16.54,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Acevector",
@@ -99,7 +99,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "A-One Steels",
@@ -109,14 +109,14 @@
         "GMP": 55.0,
         "Expected_Gain_Pct": 13.58,
         "Issue_Size_Cr": 405.0,
-        "Retail_Sub": 0.0,
+        "Retail_Sub": 0.02,
         "QIB_Sub": 0.0,
-        "NII_Sub": 0.0,
-        "Total_Sub": 0.0,
+        "NII_Sub": 0.02,
+        "Total_Sub": 0.02,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
-        "Composite_Score": 13.58,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Composite_Score": 13.59,
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Moneyview",
@@ -126,14 +126,14 @@
         "GMP": 14.0,
         "Expected_Gain_Pct": 41.18,
         "Issue_Size_Cr": 1091.68,
-        "Retail_Sub": 0.0,
+        "Retail_Sub": 0.05,
         "QIB_Sub": 0.0,
-        "NII_Sub": 0.0,
-        "Total_Sub": 0.0,
+        "NII_Sub": 0.05,
+        "Total_Sub": 0.03,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Speculative / Risky",
-        "Composite_Score": 41.18,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Composite_Score": 41.24,
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "ArMee Infotech",
@@ -143,14 +143,14 @@
         "GMP": 51.0,
         "Expected_Gain_Pct": 13.6,
         "Issue_Size_Cr": 300.0,
-        "Retail_Sub": 0.54,
+        "Retail_Sub": 0.63,
         "QIB_Sub": 1.0,
-        "NII_Sub": 0.42,
-        "Total_Sub": 0.57,
+        "NII_Sub": 0.46,
+        "Total_Sub": 0.63,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
-        "Composite_Score": 13.99,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Composite_Score": 14.03,
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Swastika Infra",
@@ -160,14 +160,14 @@
         "GMP": 9.5,
         "Expected_Gain_Pct": 5.14,
         "Issue_Size_Cr": 160.88,
-        "Retail_Sub": 0.74,
+        "Retail_Sub": 0.85,
         "QIB_Sub": 0.71,
-        "NII_Sub": 1.99,
-        "Total_Sub": 1.0,
+        "NII_Sub": 2.02,
+        "Total_Sub": 1.06,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
-        "Composite_Score": 5.4,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Composite_Score": 5.41,
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Elevate Campuses",
@@ -177,14 +177,14 @@
         "GMP": 4.5,
         "Expected_Gain_Pct": 1.24,
         "Issue_Size_Cr": 2100.0,
-        "Retail_Sub": 0.14,
+        "Retail_Sub": 0.16,
         "QIB_Sub": 0.19,
         "NII_Sub": 0.32,
-        "Total_Sub": 0.21,
+        "Total_Sub": 0.22,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.25,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Adroit Industries",
@@ -194,14 +194,14 @@
         "GMP": 34.0,
         "Expected_Gain_Pct": 25.37,
         "Issue_Size_Cr": 150.71,
-        "Retail_Sub": 7.29,
+        "Retail_Sub": 8.5,
         "QIB_Sub": 0.05,
-        "NII_Sub": 7.3,
-        "Total_Sub": 5.22,
+        "NII_Sub": 9.03,
+        "Total_Sub": 6.2,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "High Conviction Apply",
-        "Composite_Score": 31.99,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Composite_Score": 33.23,
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Varmora Granito",
@@ -211,14 +211,14 @@
         "GMP": 0.0,
         "Expected_Gain_Pct": 0.0,
         "Issue_Size_Cr": 708.02,
-        "Retail_Sub": 0.41,
+        "Retail_Sub": 0.45,
         "QIB_Sub": 0.11,
         "NII_Sub": 0.18,
-        "Total_Sub": 0.27,
+        "Total_Sub": 0.29,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Sonaselection India",
@@ -235,7 +235,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "NSE",
@@ -252,7 +252,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 2.88,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Hero Motors",
@@ -269,7 +269,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 4.82,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "Jindal Supreme",
@@ -286,7 +286,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 109.13,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     },
     {
         "Company": "SS Retail",
@@ -303,6 +303,6 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 132.09,
-        "Run_Timestamp": "2026-09-24 04:01:06"
+        "Run_Timestamp": "2026-09-24 05:01:05"
     }
 ]

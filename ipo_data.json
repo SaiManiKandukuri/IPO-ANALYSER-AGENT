@@ -14,7 +14,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "Nityas Gems & Jewellery",
@@ -31,7 +31,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "Shah Investor's Home",
@@ -48,7 +48,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 7.19,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "SRIT India",
@@ -65,7 +65,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 24.62,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "Runwal Enterprises",
@@ -82,7 +82,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 4.69,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "German Green Steel",
@@ -99,7 +99,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 20.79,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "Orient Cables",
@@ -116,7 +116,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 34.48,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "Acevector",
@@ -133,7 +133,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 6.33,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "A-One Steels",
@@ -150,7 +150,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 13.76,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "Moneyview",
@@ -167,7 +167,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 53.99,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "ArMee Infotech",
@@ -184,7 +184,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 2.41,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "Swastika Infra",
@@ -201,7 +201,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 3.39,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "Elevate Campuses",
@@ -218,7 +218,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.2,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "Adroit Industries",
@@ -235,7 +235,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 125.37,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     },
     {
         "Company": "Varmora Granito",
@@ -252,6 +252,6 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-26 09:01:07"
+        "Run_Timestamp": "2026-09-26 10:01:05"
     }
 ]

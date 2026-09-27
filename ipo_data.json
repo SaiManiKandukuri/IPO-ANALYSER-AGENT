@@ -14,7 +14,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "Nityas Gems & Jewellery",
@@ -31,7 +31,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "Shah Investor's Home",
@@ -48,7 +48,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 5.39,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "SRIT India",
@@ -65,7 +65,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 24.62,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "Runwal Enterprises",
@@ -82,15 +82,15 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 4.85,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "German Green Steel",
         "Open_Date": "2026-09-25",
         "Close_Date": "2026-09-29",
         "Price_Band": "139",
-        "GMP": 27.5,
-        "Expected_Gain_Pct": 19.78,
+        "GMP": 29.0,
+        "Expected_Gain_Pct": 20.86,
         "Issue_Size_Cr": 303.9,
         "Retail_Sub": 1.74,
         "QIB_Sub": 1.39,
@@ -98,8 +98,8 @@
         "Total_Sub": 1.82,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Speculative / Risky",
-        "Composite_Score": 21.58,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Composite_Score": 22.76,
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "Orient Cables",
@@ -116,15 +116,15 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 36.51,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "Acevector",
         "Open_Date": "2026-09-25",
         "Close_Date": "2026-09-29",
         "Price_Band": "32",
-        "GMP": 2.0,
-        "Expected_Gain_Pct": 6.25,
+        "GMP": 1.0,
+        "Expected_Gain_Pct": 3.12,
         "Issue_Size_Cr": 420.0,
         "Retail_Sub": 0.65,
         "QIB_Sub": 0.0,
@@ -132,8 +132,8 @@
         "Total_Sub": 0.24,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
-        "Composite_Score": 6.33,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Composite_Score": 3.16,
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "A-One Steels",
@@ -150,7 +150,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 14.82,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "Moneyview",
@@ -167,7 +167,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 53.99,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "ArMee Infotech",
@@ -184,15 +184,15 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 2.41,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "Swastika Infra",
         "Open_Date": "2026-09-23",
         "Close_Date": "2026-09-25",
         "Price_Band": "185",
-        "GMP": 6.0,
-        "Expected_Gain_Pct": 3.24,
+        "GMP": 6.5,
+        "Expected_Gain_Pct": 3.51,
         "Issue_Size_Cr": 160.88,
         "Retail_Sub": 5.64,
         "QIB_Sub": 3.31,
@@ -200,16 +200,16 @@
         "Total_Sub": 7.91,
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
-        "Composite_Score": 4.52,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Composite_Score": 4.9,
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "Elevate Campuses",
         "Open_Date": "2026-09-23",
         "Close_Date": "2026-09-25",
         "Price_Band": "362",
-        "GMP": 10.0,
-        "Expected_Gain_Pct": 2.76,
+        "GMP": 9.5,
+        "Expected_Gain_Pct": 2.62,
         "Issue_Size_Cr": 2100.0,
         "Retail_Sub": 1.07,
         "QIB_Sub": 2.66,
@@ -217,16 +217,16 @@
         "Total_Sub": 1.89,
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
-        "Composite_Score": 3.02,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Composite_Score": 2.87,
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "Adroit Industries",
         "Open_Date": "2026-09-23",
         "Close_Date": "2026-09-25",
         "Price_Band": "134",
-        "GMP": 53.5,
-        "Expected_Gain_Pct": 39.93,
+        "GMP": 54.0,
+        "Expected_Gain_Pct": 40.3,
         "Issue_Size_Cr": 150.71,
         "Retail_Sub": 99.81,
         "QIB_Sub": 195.04,
@@ -234,8 +234,8 @@
         "Total_Sub": 176.85,
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
-        "Composite_Score": 139.75,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Composite_Score": 141.05,
+        "Run_Timestamp": "2026-09-27 07:01:08"
     },
     {
         "Company": "Varmora Granito",
@@ -252,6 +252,6 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-09-27 06:01:05"
+        "Run_Timestamp": "2026-09-27 07:01:08"
     }
 ]

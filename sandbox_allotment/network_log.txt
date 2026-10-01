@@ -1,0 +1,49 @@
+Navigating to KFintech...
+>>> GET https://ipostatus.kfintech.com/
+Headers: {
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+  "sec-ch-ua-mobile": "?0",
+  "sec-ch-ua-platform": "\"macOS\""
+}
+Post Data: None
+
+<<< 200 https://ipostatus.kfintech.com/
+
+>>> GET https://ipostatus.kfintech.com/static/js/main.7118ebb9.js
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://ipostatus.kfintech.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+  "sec-ch-ua-mobile": "?0"
+}
+Post Data: None
+
+>>> GET https://ipostatus.kfintech.com/static/css/main.aba1885a.css
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://ipostatus.kfintech.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+  "sec-ch-ua-mobile": "?0"
+}
+Post Data: None
+
+<<< 200 https://ipostatus.kfintech.com/static/css/main.aba1885a.css
+
+<<< 200 https://ipostatus.kfintech.com/static/js/main.7118ebb9.js
+
+>>> GET https://ipostatus.kfintech.com/static/media/bluebg.8fe1a02ffe010282a8b0.png
+Headers: {
+  "sec-ch-ua-platform": "\"macOS\"",
+  "referer": "https://ipostatus.kfintech.com/",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+  "sec-ch-ua": "\"HeadlessChrome\";v=\"153\", \"Not_A Brand\";v=\"8\", \"Chromium\";v=\"153\"",
+  "sec-ch-ua-mobile": "?0"
+}
+Post Data: None
+
+<<< 200 https://ipostatus.kfintech.com/static/media/bluebg.8fe1a02ffe010282a8b0.png
+

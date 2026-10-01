@@ -146,9 +146,9 @@ def main():
     if status == "VALID":
         msg = f"🎯 *Hourly IPO Strategy Alert* ({current_time})\n\n"
         msg += f"🏆 *Top Pick:* *{top_pick['Company']}*\n\n"
-        msg += f"📊 *Current Qualified Rankings:*\n"
         for idx, q_ipo in enumerate(qualified_ipos):
-            msg += f"{idx+1}. *{q_ipo['Company']}* | GMP: {q_ipo['Expected_Gain_Pct']}% | Size: ₹{q_ipo['Issue_Size_Cr']}Cr | Retail: {q_ipo['Retail_Sub']}x\n"
+            est_profit = q_ipo.get('Est_Profit_Rs', 0)
+            msg += f"{idx+1}. *{q_ipo['Company']}* | GMP: {q_ipo['Expected_Gain_Pct']}% | Size: ₹{q_ipo['Issue_Size_Cr']}Cr | QIB: {q_ipo.get('QIB_Sub', 0)}x | Retail: {q_ipo['Retail_Sub']}x | Est Profit: ~₹{est_profit}\n"
         
         msg += f"\n💡 *Enduku ee IPO select chesam (Reason):*\n"
         msg += reasoning_tenglish
@@ -160,7 +160,8 @@ def main():
             msg += f"📋 *Currently Open IPOs Status:*\n"
             
         for ipo in open_ipos:
-            msg += f"• *{ipo['Company']}* | GMP: ₹{ipo.get('GMP', 0)} ({ipo['Expected_Gain_Pct']}%) | Size: ₹{ipo['Issue_Size_Cr']}Cr | Total Sub: {ipo['Total_Sub']}x | Retail: {ipo['Retail_Sub']}x -> ❌ Failed (GMP < 20%)\n"
+            est_profit = ipo.get('Est_Profit_Rs', 0)
+            msg += f"• *{ipo['Company']}* | GMP: ₹{ipo.get('GMP', 0)} ({ipo['Expected_Gain_Pct']}%) | Size: ₹{ipo['Issue_Size_Cr']}Cr | QIB: {ipo.get('QIB_Sub', 0)}x | Total: {ipo['Total_Sub']}x | Retail: {ipo['Retail_Sub']}x | Est Profit: ~₹{est_profit} -> ❌ Failed (GMP < 20%)\n"
         
         msg += f"\n⚠️ *Conclusion & Reason:*\n"
         msg += f"Present ga apply cheyadaniki ye okka manchi IPO kuda ledu brother. Money safe ga unchandi, apply cheyoddu.\n\n"
@@ -198,5 +199,90 @@ def main():
         except Exception as e:
             print(f"Error connecting to Telegram: {e}")
 
+def check_allotments_for_subscribers():
+    try:
+        from allotment_scraper import KFintechScraper, get_todays_ipos
+        from users_db import get_all_users_by_status
+        import requests
+        
+        bot_token = os.environ.get("TELEGRAM_BOT_TOKEN")
+        if not bot_token:
+            return
+            
+        def send_dm(chat_id, text):
+            url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
+            payload = {"chat_id": chat_id, "text": text, "parse_mode": "Markdown"}
+            requests.post(url, json=payload)
+            
+        def send_photo(chat_id, text, photo_path):
+            url = f"https://api.telegram.org/bot{bot_token}/sendPhoto"
+            try:
+                with open(photo_path, 'rb') as photo:
+                    payload = {"chat_id": chat_id, "caption": text, "parse_mode": "Markdown"}
+                    requests.post(url, data=payload, files={"photo": photo})
+            except Exception as e:
+                print(f"Error sending photo: {e}")
+                send_dm(chat_id, text) # Fallback to text
+
+        todays_ipos = get_todays_ipos()
+        if not todays_ipos:
+            print("No IPOs declaring allotment today.")
+            return
+            
+        print(f"IPOs declaring allotment today: {todays_ipos}")
+            
+        active_users = get_all_users_by_status('ACTIVE')
+        if not active_users:
+            print("No active subscribers to check allotments for.")
+            return
+            
+        scraper = KFintechScraper()
+        import asyncio
+        
+        # PRE-CHECK: Fast validation to see if KFintech has actually released the IPO in the dropdown
+        # This prevents 500 browsers from spinning up every 5 minutes if the IPO hasn't dropped yet!
+        active_kfin = asyncio.run(scraper.get_active_dropdown_ipos())
+        
+        live_ipos = []
+        for target in todays_ipos:
+            t_simple = target.lower().replace('limited', '').replace('ltd', '').strip()
+            for active in active_kfin:
+                a_simple = active.lower().replace('limited', '').replace('ltd', '').strip()
+                if t_simple in a_simple or a_simple in t_simple:
+                    live_ipos.append(target)
+                    break
+                    
+        if not live_ipos:
+            print(f"IPOs {todays_ipos} are declaring today, but are NOT YET live on KFintech. Exiting gracefully.")
+            return
+            
+        print(f"🚨 MATCH FOUND! {live_ipos} are officially LIVE on KFintech! Starting 500-PAN Bulk Scan...")
+        
+        # We extract all pans to check in bulk asynchronously
+        pan_to_chat_id = {user['pan_number']: user['chat_id'] for user in active_users}
+        pans_to_check = list(pan_to_chat_id.keys())
+        
+        print(f"Checking allotments for {len(pans_to_check)} PANs concurrently...")
+        bulk_results = asyncio.run(scraper.check_allotments_bulk(pans_to_check, live_ipos))
+        
+        for pan, allotments in bulk_results.items():
+            if allotments:
+                chat_id = pan_to_chat_id[pan]
+                msg = f"🎉 *ALLOTMENT ALERT* 🎉\n\nYour PAN `{pan}` has been checked!\n\n"
+                for allot in allotments:
+                    msg += f"🏢 *Company:* {allot['company']}\n"
+                    msg += f"✅ *Status:* {allot['allotted']}\n\n"
+                msg += "Thank you for being a premium subscriber!"
+                
+                # Send screenshot if available, otherwise just text
+                if 'screenshot' in allotments[0] and allotments[0]['screenshot']:
+                    send_photo(chat_id, msg, allotments[0]['screenshot'])
+                else:
+                    send_dm(chat_id, msg)
+                
+    except Exception as e:
+        print(f"Error checking allotments: {e}")
+
 if __name__ == '__main__':
     main()
+    check_allotments_for_subscribers()

@@ -113,6 +113,11 @@ def main():
             
         issue_size = clean_num(row.get('IPO Size_gmp') or row.get('IPO Size_sub') or row.get('IPO Size', 0))
         
+        # Parse Lot Size and Calculate Exact Profit
+        lot_size_str = str(row.get('Lot', '0'))
+        lot_size = clean_num(lot_size_str)
+        est_profit_rs = int(gmp * lot_size)
+        
         # Bidding Status
         close_date_str = str(row.get('~Srt_Close', ''))
         if close_date_str and close_date_str != 'nan':
@@ -145,6 +150,8 @@ def main():
             'GMP': gmp,
             'Expected_Gain_Pct': round(expected_gain, 2),
             'Issue_Size_Cr': issue_size,
+            'Lot_Size': int(lot_size),
+            'Est_Profit_Rs': est_profit_rs,
             'Retail_Sub': rii,
             'QIB_Sub': qib,
             'NII_Sub': nii,
@@ -179,6 +186,8 @@ def main():
         GMP REAL,
         Expected_Gain_Pct REAL,
         Issue_Size_Cr REAL,
+        Lot_Size INTEGER,
+        Est_Profit_Rs INTEGER,
         Retail_Sub REAL,
         QIB_Sub REAL,
         NII_Sub REAL,
@@ -194,12 +203,12 @@ def main():
         cursor.execute('''
         INSERT INTO ipo_analysis (
             Company, Open_Date, Close_Date, Price_Band, GMP, Expected_Gain_Pct, Issue_Size_Cr,
-            Retail_Sub, QIB_Sub, NII_Sub, Total_Sub, Bidding_Status,
+            Lot_Size, Est_Profit_Rs, Retail_Sub, QIB_Sub, NII_Sub, Total_Sub, Bidding_Status,
             Verdict, Composite_Score, Run_Timestamp
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         ''', (
             r['Company'], r['Open_Date'], r['Close_Date'], str(r['Price_Band']), r['GMP'], r['Expected_Gain_Pct'], r['Issue_Size_Cr'],
-            r['Retail_Sub'], r['QIB_Sub'], r['NII_Sub'], r['Total_Sub'], r['Bidding_Status'],
+            r['Lot_Size'], r['Est_Profit_Rs'], r['Retail_Sub'], r['QIB_Sub'], r['NII_Sub'], r['Total_Sub'], r['Bidding_Status'],
             r['Verdict'], r['Composite_Score'], r['Run_Timestamp']
         ))
         

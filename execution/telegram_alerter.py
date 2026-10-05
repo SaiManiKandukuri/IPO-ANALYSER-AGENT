@@ -85,7 +85,9 @@ def main():
     ist_now = utc_now + timedelta(hours=5, minutes=30)
     today = ist_now.date()
     today_str = today.strftime('%Y-%m-%d')
-
+    
+    tomorrow = today + timedelta(days=1)
+    tomorrow_str = tomorrow.strftime('%Y-%m-%d')
     open_ipos = []
     for ipo in data:
         # Strict Date Filter: Open Date <= Today <= Close Date
@@ -148,7 +150,12 @@ def main():
         msg += f"🏆 *Top Pick:* *{top_pick['Company']}*\n\n"
         for idx, q_ipo in enumerate(qualified_ipos):
             est_profit = q_ipo.get('Est_Profit_Rs', 0)
-            closing_tag = " [🔥 CLOSING TODAY]" if q_ipo.get('Close_Date') == today_str else ""
+            if q_ipo.get('Close_Date') == today_str:
+                closing_tag = " [🔥 CLOSING TODAY]"
+            elif q_ipo.get('Close_Date') == tomorrow_str:
+                closing_tag = " [⏳ CLOSES TOMORROW]"
+            else:
+                closing_tag = ""
             msg += f"{idx+1}. *{q_ipo['Company']}{closing_tag}* | GMP: {q_ipo['Expected_Gain_Pct']}% | Size: ₹{q_ipo['Issue_Size_Cr']}Cr | QIB: {q_ipo.get('QIB_Sub', 0)}x | Retail: {q_ipo['Retail_Sub']}x | Est Profit: ~₹{est_profit}\n"
         
         msg += f"\n💡 *Enduku ee IPO select chesam (Reason):*\n"
@@ -162,7 +169,12 @@ def main():
             
         for ipo in open_ipos:
             est_profit = ipo.get('Est_Profit_Rs', 0)
-            closing_tag = " [🔥 CLOSING TODAY]" if ipo.get('Close_Date') == today_str else ""
+            if ipo.get('Close_Date') == today_str:
+                closing_tag = " [🔥 CLOSING TODAY]"
+            elif ipo.get('Close_Date') == tomorrow_str:
+                closing_tag = " [⏳ CLOSES TOMORROW]"
+            else:
+                closing_tag = ""
             msg += f"• *{ipo['Company']}{closing_tag}* | GMP: ₹{ipo.get('GMP', 0)} ({ipo['Expected_Gain_Pct']}%) | Size: ₹{ipo['Issue_Size_Cr']}Cr | QIB: {ipo.get('QIB_Sub', 0)}x | Total: {ipo['Total_Sub']}x | Retail: {ipo['Retail_Sub']}x | Est Profit: ~₹{est_profit} -> ❌ Failed (GMP < 20%)\n"
         
         msg += f"\n⚠️ *Conclusion & Reason:*\n"

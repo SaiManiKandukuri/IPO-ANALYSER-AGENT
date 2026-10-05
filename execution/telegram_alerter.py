@@ -164,11 +164,11 @@ def main():
             ret = q_ipo['Retail_Sub']
             
             msg += f"🏢 *{q_ipo['Company']}*{closing_tag}\n"
-            msg += f"  🔹 GMP: {gmp_pct}% (₹{gmp_rs})\n"
-            msg += f"  🔹 Profit: ~₹{est_profit}\n"
-            msg += f"  🔹 Size: ₹{size}Cr\n"
-            msg += f"  🔹 QIB Sub: {qib}x\n"
-            msg += f"  🔹 Retail Sub: {ret}x\n"
+            msg += f"  📈 GMP: {gmp_pct}% (₹{gmp_rs})\n"
+            msg += f"  💰 Profit: ~₹{est_profit}\n"
+            msg += f"  📦 Size: ₹{size}Cr\n"
+            msg += f"  🏦 QIB Sub: {qib}x\n"
+            msg += f"  👥 Retail Sub: {ret}x\n"
             msg += f"✅ Verdict: APPLY\n\n"
         
         msg += f"💡 *Enduku ee IPO select chesam (Reason):*\n"
@@ -196,11 +196,11 @@ def main():
             ret = ipo['Retail_Sub']
             
             msg += f"🏢 *{ipo['Company']}*{closing_tag}\n"
-            msg += f"  🔹 GMP: {gmp_pct}% (₹{gmp_rs})\n"
-            msg += f"  🔹 Profit: ~₹{est_profit}\n"
-            msg += f"  🔹 Size: ₹{size}Cr\n"
-            msg += f"  🔹 QIB Sub: {qib}x\n"
-            msg += f"  🔹 Retail Sub: {ret}x\n"
+            msg += f"  📈 GMP: {gmp_pct}% (₹{gmp_rs})\n"
+            msg += f"  💰 Profit: ~₹{est_profit}\n"
+            msg += f"  📦 Size: ₹{size}Cr\n"
+            msg += f"  🏦 QIB Sub: {qib}x\n"
+            msg += f"  👥 Retail Sub: {ret}x\n"
             msg += f"❌ Verdict: FAILED\n\n"
         
         msg += f"⚠️ *Conclusion & Reason:*\n"

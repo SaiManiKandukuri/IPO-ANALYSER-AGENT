@@ -151,9 +151,9 @@ def main():
         for idx, q_ipo in enumerate(qualified_ipos):
             est_profit = q_ipo.get('Est_Profit_Rs', 0)
             if q_ipo.get('Close_Date') == today_str:
-                closing_tag = "\n🔥 CLOSING TODAY"
+                closing_tag = " [🔥 CLOSING TODAY]"
             elif q_ipo.get('Close_Date') == tomorrow_str:
-                closing_tag = "\n⏳ CLOSES TOMORROW"
+                closing_tag = " [⏳ CLOSES TOMORROW]"
             else:
                 closing_tag = ""
             
@@ -162,12 +162,13 @@ def main():
             size = q_ipo['Issue_Size_Cr']
             qib = q_ipo.get('QIB_Sub', 0)
             ret = q_ipo['Retail_Sub']
-            tot = q_ipo['Total_Sub']
             
             msg += f"🏢 *{q_ipo['Company']}*{closing_tag}\n"
-            msg += f"📦 Size: ₹{size}Cr\n"
-            msg += f"💰 Profit: ~₹{est_profit} ({gmp_pct}%)\n"
-            msg += f"👥 Sub: Q {qib}x | R {ret}x | T {tot}x\n"
+            msg += f"  🔹 GMP: {gmp_pct}% (₹{gmp_rs})\n"
+            msg += f"  🔹 Profit: ~₹{est_profit}\n"
+            msg += f"  🔹 Size: ₹{size}Cr\n"
+            msg += f"  🔹 QIB Sub: {qib}x\n"
+            msg += f"  🔹 Retail Sub: {ret}x\n"
             msg += f"✅ Verdict: APPLY\n\n"
         
         msg += f"💡 *Enduku ee IPO select chesam (Reason):*\n"
@@ -182,9 +183,9 @@ def main():
         for ipo in open_ipos:
             est_profit = ipo.get('Est_Profit_Rs', 0)
             if ipo.get('Close_Date') == today_str:
-                closing_tag = "\n🔥 CLOSING TODAY"
+                closing_tag = " [🔥 CLOSING TODAY]"
             elif ipo.get('Close_Date') == tomorrow_str:
-                closing_tag = "\n⏳ CLOSES TOMORROW"
+                closing_tag = " [⏳ CLOSES TOMORROW]"
             else:
                 closing_tag = ""
                 
@@ -193,12 +194,13 @@ def main():
             size = ipo['Issue_Size_Cr']
             qib = ipo.get('QIB_Sub', 0)
             ret = ipo['Retail_Sub']
-            tot = ipo['Total_Sub']
             
             msg += f"🏢 *{ipo['Company']}*{closing_tag}\n"
-            msg += f"📦 Size: ₹{size}Cr\n"
-            msg += f"💰 Profit: ~₹{est_profit} ({gmp_pct}%)\n"
-            msg += f"👥 Sub: Q {qib}x | R {ret}x | T {tot}x\n"
+            msg += f"  🔹 GMP: {gmp_pct}% (₹{gmp_rs})\n"
+            msg += f"  🔹 Profit: ~₹{est_profit}\n"
+            msg += f"  🔹 Size: ₹{size}Cr\n"
+            msg += f"  🔹 QIB Sub: {qib}x\n"
+            msg += f"  🔹 Retail Sub: {ret}x\n"
             msg += f"❌ Verdict: FAILED\n\n"
         
         msg += f"⚠️ *Conclusion & Reason:*\n"

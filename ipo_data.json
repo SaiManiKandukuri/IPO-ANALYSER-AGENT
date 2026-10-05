@@ -16,7 +16,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.99,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Nityas Gems & Jewellery",
@@ -35,7 +35,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.48,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Shah Investor's Home",
@@ -54,7 +54,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 28.71,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "SRIT India",
@@ -73,7 +73,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 153.47,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Runwal Enterprises",
@@ -92,7 +92,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "German Green Steel",
@@ -111,7 +111,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 17.22,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Orient Cables",
@@ -130,7 +130,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 141.54,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Acevector",
@@ -149,7 +149,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "A-One Steels",
@@ -168,7 +168,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 18.31,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Moneyview",
@@ -187,7 +187,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 149.28,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "ArMee Infotech",
@@ -206,7 +206,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.81,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Swastika Infra",
@@ -225,7 +225,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 5.27,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Elevate Campuses",
@@ -244,7 +244,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.97,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Adroit Industries",
@@ -263,7 +263,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 143.64,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Varmora Granito",
@@ -282,7 +282,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.73,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     },
     {
         "Company": "Jio Platforms",
@@ -301,6 +301,6 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-05 14:01:13"
+        "Run_Timestamp": "2026-10-05 14:12:05"
     }
 ]

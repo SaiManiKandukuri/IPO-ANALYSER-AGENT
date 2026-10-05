@@ -147,7 +147,7 @@ def main():
     
     if status == "VALID":
         msg = f"🎯 *Hourly IPO Strategy Alert* ({current_time})\n\n"
-        msg += f"🏆 *Top Pick:* *{top_pick['Company']}*\n\n"
+        msg += f"🏆 *TOP PICK*\n"
         for idx, q_ipo in enumerate(qualified_ipos):
             est_profit = q_ipo.get('Est_Profit_Rs', 0)
             if q_ipo.get('Close_Date') == today_str:
@@ -156,16 +156,29 @@ def main():
                 closing_tag = " [⏳ CLOSES TOMORROW]"
             else:
                 closing_tag = ""
-            msg += f"{idx+1}. *{q_ipo['Company']}{closing_tag}* | GMP: {q_ipo['Expected_Gain_Pct']}% | Size: ₹{q_ipo['Issue_Size_Cr']}Cr | QIB: {q_ipo.get('QIB_Sub', 0)}x | Retail: {q_ipo['Retail_Sub']}x | Est Profit: ~₹{est_profit}\n"
+            
+            # Pad values for grid alignment
+            gmp_str = f"{q_ipo['Expected_Gain_Pct']}% (₹{q_ipo.get('GMP', 0)})"
+            profit_str = f"~₹{est_profit}"
+            size_str = f"₹{q_ipo['Issue_Size_Cr']}Cr"
+            ret_str = f"{q_ipo['Retail_Sub']}x"
+            qib_str = f"{q_ipo.get('QIB_Sub', 0)}x"
+            tot_str = f"{q_ipo['Total_Sub']}x"
+            
+            msg += f"🏢 *{q_ipo['Company']}*{closing_tag}\n"
+            msg += f"📊 GMP: {gmp_str:<14} | 💰 Profit: {profit_str}\n"
+            msg += f"📦 Size: {size_str:<13} | 👥 Retail: {ret_str}\n"
+            msg += f"🏦 QIB:  {qib_str:<13} | 📈 Total:  {tot_str}\n"
+            msg += f"✅ Verdict: APPLY\n\n"
         
-        msg += f"\n💡 *Enduku ee IPO select chesam (Reason):*\n"
+        msg += f"💡 *Enduku ee IPO select chesam (Reason):*\n"
         msg += reasoning_tenglish
     else:
         msg = f"🎯 *Hourly IPO Strategy Alert* ({current_time})\n\n"
         if len(open_ipos) == 1:
-            msg += f"📋 *Currently Open IPO Status:*\n"
+            msg += f"📋 *CURRENTLY OPEN IPO*\n\n"
         else:
-            msg += f"📋 *Currently Open IPOs Status:*\n"
+            msg += f"📋 *CURRENTLY OPEN IPOs*\n\n"
             
         for ipo in open_ipos:
             est_profit = ipo.get('Est_Profit_Rs', 0)
@@ -175,9 +188,21 @@ def main():
                 closing_tag = " [⏳ CLOSES TOMORROW]"
             else:
                 closing_tag = ""
-            msg += f"• *{ipo['Company']}{closing_tag}* | GMP: ₹{ipo.get('GMP', 0)} ({ipo['Expected_Gain_Pct']}%) | Size: ₹{ipo['Issue_Size_Cr']}Cr | QIB: {ipo.get('QIB_Sub', 0)}x | Total: {ipo['Total_Sub']}x | Retail: {ipo['Retail_Sub']}x | Est Profit: ~₹{est_profit} -> ❌ Failed (GMP < 20%)\n"
+                
+            gmp_str = f"{ipo['Expected_Gain_Pct']}% (₹{ipo.get('GMP', 0)})"
+            profit_str = f"~₹{est_profit}"
+            size_str = f"₹{ipo['Issue_Size_Cr']}Cr"
+            ret_str = f"{ipo['Retail_Sub']}x"
+            qib_str = f"{ipo.get('QIB_Sub', 0)}x"
+            tot_str = f"{ipo['Total_Sub']}x"
+            
+            msg += f"🏢 *{ipo['Company']}*{closing_tag}\n"
+            msg += f"📊 GMP: {gmp_str:<14} | 💰 Profit: {profit_str}\n"
+            msg += f"📦 Size: {size_str:<13} | 👥 Retail: {ret_str}\n"
+            msg += f"🏦 QIB:  {qib_str:<13} | 📈 Total:  {tot_str}\n"
+            msg += f"❌ Verdict: FAILED (GMP < 20%)\n\n"
         
-        msg += f"\n⚠️ *Conclusion & Reason:*\n"
+        msg += f"⚠️ *Conclusion & Reason:*\n"
         msg += f"Present ga apply cheyadaniki ye okka manchi IPO kuda ledu brother. Money safe ga unchandi, apply cheyoddu.\n\n"
         msg += f"💡 *Enduku apply cheyoddu (Reason):*\n"
         msg += reasoning_tenglish

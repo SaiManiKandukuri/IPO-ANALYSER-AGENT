@@ -91,7 +91,7 @@ def main():
     open_ipos = []
     for ipo in data:
         # Strict Date Filter: Open Date <= Today <= Close Date
-        if ipo.get('Open_Date') != '-' and ipo.get('Close_Date') != '-':
+        if ipo.get('Open_Date') not in ['-', ''] and ipo.get('Close_Date') not in ['-', '']:
             o_date = datetime.strptime(ipo['Open_Date'], '%Y-%m-%d').date()
             c_date = datetime.strptime(ipo['Close_Date'], '%Y-%m-%d').date()
             if o_date <= today <= c_date:

@@ -1,8 +1,6 @@
 name: Hourly IPO Scraper
 
 on:
-  schedule:
-    - cron: '0 * * * *' # Runs automatically every hour
   repository_dispatch:
     types: [hourly-trigger] # Allows external triggering via webhook
   workflow_dispatch: # Allows manual trigger from the GitHub UI

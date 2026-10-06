@@ -31,16 +31,21 @@ def main():
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     
     # API Endpoints that return the FULL table (bypassing DataTables pagination and limits)
-    # 331 is GMP report, 333 is Subscription report
-    gmp_url = f'https://webnodejs.investorgain.com/cloud/v2/report/data-read/331/1/{month}/{year}/{fy}/0/all'
-    sub_url = f'https://webnodejs.investorgain.com/cloud/v2/report/data-read/333/1/{month}/{year}/{fy}/0/all'
+    # 331 is Mainboard GMP report, 333 is Mainboard Subscription report
+    # 334 is SME GMP report, 335 is SME Subscription report
+    gmp_url_main = f'https://webnodejs.investorgain.com/cloud/v2/report/data-read/331/1/{month}/{year}/{fy}/0/all'
+    sub_url_main = f'https://webnodejs.investorgain.com/cloud/v2/report/data-read/333/1/{month}/{year}/{fy}/0/all'
+    gmp_url_sme = f'https://webnodejs.investorgain.com/cloud/v2/report/data-read/334/1/{month}/{year}/{fy}/0/all'
+    sub_url_sme = f'https://webnodejs.investorgain.com/cloud/v2/report/data-read/335/1/{month}/{year}/{fy}/0/all'
     
     try:
-        gmp_resp = requests.get(gmp_url, headers=headers)
-        sub_resp = requests.get(sub_url, headers=headers)
+        gmp_resp_main = requests.get(gmp_url_main, headers=headers)
+        sub_resp_main = requests.get(sub_url_main, headers=headers)
+        gmp_resp_sme = requests.get(gmp_url_sme, headers=headers)
+        sub_resp_sme = requests.get(sub_url_sme, headers=headers)
         
-        gmp_data = gmp_resp.json().get('reportTableData', [])
-        sub_data = sub_resp.json().get('reportTableData', [])
+        gmp_data = gmp_resp_main.json().get('reportTableData', []) + gmp_resp_sme.json().get('reportTableData', [])
+        sub_data = sub_resp_main.json().get('reportTableData', []) + sub_resp_sme.json().get('reportTableData', [])
     except Exception as e:
         print(f"Failed to fetch data from API: {e}")
         return
@@ -64,12 +69,6 @@ def main():
     today_str = now.strftime('%Y-%m-%d')
     
     for index, row in df_merged.iterrows():
-        # The API returns both Mainboard and SME IPOs. Filter out SME IPOs based on category fields.
-        cat1 = str(row.get('~ipo_category1', '')).upper()
-        cat2 = str(row.get('~IPO_Category', '')).upper()
-        if 'SME' in cat1 or 'SME' in cat2:
-            continue
-            
         # Get clean company name
         comp = row.get('~ipo_name')
         if not comp or pd.isna(comp):
@@ -81,6 +80,11 @@ def main():
             else:
                 comp = "Unknown"
                 
+        # Determine IPO Type
+        cat1 = str(row.get('~ipo_category1', '')).upper()
+        cat2 = str(row.get('~IPO_Category', '')).upper()
+        ipo_type = 'SME' if ('SME' in cat1 or 'SME' in cat2) else 'Mainboard'
+        
         comp = re.sub(r'(?i)\s+IPO$', '', comp)
                 
         # Parse Subscriptions
@@ -116,7 +120,10 @@ def main():
         # Parse Lot Size and Calculate Exact Profit
         lot_size_str = str(row.get('Lot', '0'))
         lot_size = clean_num(lot_size_str)
-        est_profit_rs = int(gmp * lot_size)
+        if pd.isna(gmp) or pd.isna(lot_size):
+            est_profit_rs = 0
+        else:
+            est_profit_rs = int(gmp * lot_size)
         
         # Bidding Status
         close_date_str = str(row.get('~Srt_Close', ''))
@@ -150,10 +157,11 @@ def main():
             'GMP': gmp,
             'Expected_Gain_Pct': round(expected_gain, 2),
             'Issue_Size_Cr': issue_size,
-            'Lot_Size': int(lot_size),
+            'Lot_Size': 0 if pd.isna(lot_size) else int(lot_size),
             'Est_Profit_Rs': est_profit_rs,
             'Retail_Sub': rii,
             'QIB_Sub': qib,
+            'IPO_Type': ipo_type,
             'NII_Sub': nii,
             'Total_Sub': total_sub,
             'Bidding_Status': bidding_status,

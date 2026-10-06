@@ -121,11 +121,17 @@ def main():
     qualified_ipos = []
     for ipo in open_ipos:
         gain = ipo.get('Expected_Gain_Pct', 0.0)
+        ipo_type = ipo.get('IPO_Type', 'Mainboard')
+        
         # Thresholds
-        if is_clash and gain >= 20.0:
-            qualified_ipos.append(ipo)
-        elif not is_clash and gain >= 25.0:
-            qualified_ipos.append(ipo)
+        if ipo_type == 'SME':
+            if gain >= 50.0:
+                qualified_ipos.append(ipo)
+        else:
+            if is_clash and gain >= 20.0:
+                qualified_ipos.append(ipo)
+            elif not is_clash and gain >= 25.0:
+                qualified_ipos.append(ipo)
 
     # Rank qualified IPOs
     if qualified_ipos:
@@ -163,7 +169,8 @@ def main():
             qib = q_ipo.get('QIB_Sub', 0)
             ret = q_ipo['Retail_Sub']
             
-            msg += f"🏢 *{q_ipo['Company']}*{closing_tag}\n"
+            ipo_tag = f" [{q_ipo.get('IPO_Type', 'Mainboard')}]"
+            msg += f"🏢 *{q_ipo['Company']}*{ipo_tag}{closing_tag}\n"
             msg += f"  📈 GMP: {gmp_pct}% (₹{gmp_rs})\n"
             msg += f"  💰 Profit: ~₹{est_profit}\n"
             msg += f"  📦 Size: ₹{size}Cr\n"
@@ -194,14 +201,20 @@ def main():
             size = ipo['Issue_Size_Cr']
             qib = ipo.get('QIB_Sub', 0)
             ret = ipo['Retail_Sub']
+            ipo_type = ipo.get('IPO_Type', 'Mainboard')
+            ipo_tag = f" [{ipo_type}]"
             
-            msg += f"🏢 *{ipo['Company']}*{closing_tag}\n"
+            msg += f"🏢 *{ipo['Company']}*{ipo_tag}{closing_tag}\n"
             msg += f"  📈 GMP: {gmp_pct}% (₹{gmp_rs})\n"
             msg += f"  💰 Profit: ~₹{est_profit}\n"
             msg += f"  📦 Size: ₹{size}Cr\n"
             msg += f"  🏦 QIB Sub: {qib}x\n"
             msg += f"  👥 Retail Sub: {ret}x\n"
-            msg += f"❌ Verdict: FAILED\n\n"
+            
+            if ipo_type == 'SME':
+                msg += f"❌ Verdict: FAILED (SME GMP < 50%)\n\n"
+            else:
+                msg += f"❌ Verdict: FAILED (Mainboard GMP too low)\n\n"
         
         msg += f"⚠️ *Conclusion & Reason:*\n"
         msg += f"Present ga apply cheyadaniki ye okka manchi IPO kuda ledu brother. Money safe ga unchandi, apply cheyoddu.\n\n"

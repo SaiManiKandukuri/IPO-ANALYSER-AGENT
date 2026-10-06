@@ -151,75 +151,82 @@ def main():
     ist_now = utc_now + timedelta(hours=5, minutes=30)
     current_time = ist_now.strftime('%d-%m-%Y %I:%M %p')
     
-    if status == "VALID":
-        msg = f"🎯 *Hourly IPO Strategy Alert* ({current_time})\n\n"
-        msg += f"🏆 *TOP PICK*\n"
-        for idx, q_ipo in enumerate(qualified_ipos):
-            est_profit = q_ipo.get('Est_Profit_Rs', 0)
-            if q_ipo.get('Close_Date') == today_str:
-                closing_tag = " [🔥 CLOSING TODAY]"
-            elif q_ipo.get('Close_Date') == tomorrow_str:
-                closing_tag = " [⏳ CLOSES TOMORROW]"
-            else:
-                closing_tag = ""
+    def format_ipo_block(ipo, is_qualified, fail_reason):
+        est_profit = ipo.get('Est_Profit_Rs', 0)
+        if ipo.get('Close_Date') == today_str:
+            closing_tag = " [🔥 CLOSING TODAY]"
+        elif ipo.get('Close_Date') == tomorrow_str:
+            closing_tag = " [⏳ CLOSES TOMORROW]"
+        else:
+            closing_tag = ""
             
-            gmp_pct = q_ipo['Expected_Gain_Pct']
-            gmp_rs = q_ipo.get('GMP', 0)
-            size = q_ipo['Issue_Size_Cr']
-            qib = q_ipo.get('QIB_Sub', 0)
-            ret = q_ipo['Retail_Sub']
-            
-            ipo_tag = f" [{q_ipo.get('IPO_Type', 'Mainboard')}]"
-            msg += f"🏢 *{q_ipo['Company']}*{ipo_tag}{closing_tag}\n"
-            msg += f"  📈 GMP: {gmp_pct}% (₹{gmp_rs})\n"
-            msg += f"  💰 Profit: ~₹{est_profit}\n"
-            msg += f"  📦 Size: ₹{size}Cr\n"
-            msg += f"  🏦 QIB Sub: {qib}x\n"
-            msg += f"  👥 Retail Sub: {ret}x\n"
-            msg += f"✅ Verdict: APPLY\n\n"
+        gmp_pct = ipo['Expected_Gain_Pct']
+        gmp_rs = ipo.get('GMP', 0)
+        size = ipo['Issue_Size_Cr']
+        qib = ipo.get('QIB_Sub', 0)
+        ret = ipo['Retail_Sub']
         
-        msg += f"💡 *Enduku ee IPO select chesam (Reason):*\n"
+        block = f"🏢 *{ipo['Company']}*{closing_tag}\n"
+        block += f"  📈 GMP: {gmp_pct}% (₹{gmp_rs})\n"
+        block += f"  💰 Profit: ~₹{est_profit}\n"
+        block += f"  📦 Size: ₹{size}Cr\n"
+        block += f"  🏦 QIB Sub: {qib}x\n"
+        block += f"  👥 Retail Sub: {ret}x\n"
+        
+        if is_qualified:
+            block += f"✅ Verdict: APPLY\n\n"
+        else:
+            block += f"❌ Verdict: FAILED ({fail_reason})\n\n"
+        return block
+
+    msg = f"🎯 *Hourly IPO Strategy Alert* ({current_time})\n\n"
+    
+    open_main = [i for i in open_ipos if i.get('IPO_Type', 'Mainboard') == 'Mainboard']
+    open_sme = [i for i in open_ipos if i.get('IPO_Type', 'Mainboard') == 'SME']
+    qual_main = [i for i in qualified_ipos if i.get('IPO_Type', 'Mainboard') == 'Mainboard']
+    qual_sme = [i for i in qualified_ipos if i.get('IPO_Type', 'Mainboard') == 'SME']
+
+    # --- MAINBOARD SECTION ---
+    msg += f"📋 *CURRENTLY OPEN MAINBOARD IPOs*\n\n"
+    if not open_main:
+        msg += "Today there are no open Mainboard IPOs.\n\n"
+    else:
+        for ipo in open_main:
+            is_qual = ipo in qual_main
+            msg += format_ipo_block(ipo, is_qual, "Mainboard GMP too low")
+            
+    # --- SME SECTION ---
+    msg += f"📋 *CURRENTLY OPEN SME IPOs*\n\n"
+    if qual_sme:
+        for ipo in qual_sme:
+            msg += format_ipo_block(ipo, True, "")
+    else:
+        if not open_sme:
+            msg += "Today there are no open SME IPOs.\n\n"
+        else:
+            sme_names = [ipo['Company'] for ipo in open_sme]
+            if len(sme_names) > 2:
+                names_str = f"{sme_names[0]} and {sme_names[1]}"
+            elif len(sme_names) == 2:
+                names_str = f"{sme_names[0]} and {sme_names[1]}"
+            else:
+                names_str = f"{sme_names[0]}"
+                
+            count_str = str(len(sme_names))
+            msg += f"No open SME IPOs on {today_str} meet the 50% GMP threshold for a successful listing strategy.\n\n"
+            msg += f"All {count_str} currently open SME IPOs, including {names_str}, are marked as \"FAILED\" due to low Grey Market Premiums.\n\n"
+            msg += "The alert advises against applying to avoid unnecessary fund blocking until better opportunities arise next week.\n\n"
+
+    # --- REASONING SECTION ---
+    if qualified_ipos:
+        msg += f"💡 *Enduku ee IPOs select chesam (Reason):*\n"
         msg += reasoning_tenglish
     else:
-        msg = f"🎯 *Hourly IPO Strategy Alert* ({current_time})\n\n"
-        if len(open_ipos) == 1:
-            msg += f"📋 *CURRENTLY OPEN IPO*\n\n"
-        else:
-            msg += f"📋 *CURRENTLY OPEN IPOs*\n\n"
-            
-        for ipo in open_ipos:
-            est_profit = ipo.get('Est_Profit_Rs', 0)
-            if ipo.get('Close_Date') == today_str:
-                closing_tag = " [🔥 CLOSING TODAY]"
-            elif ipo.get('Close_Date') == tomorrow_str:
-                closing_tag = " [⏳ CLOSES TOMORROW]"
-            else:
-                closing_tag = ""
-                
-            gmp_pct = ipo['Expected_Gain_Pct']
-            gmp_rs = ipo.get('GMP', 0)
-            size = ipo['Issue_Size_Cr']
-            qib = ipo.get('QIB_Sub', 0)
-            ret = ipo['Retail_Sub']
-            ipo_type = ipo.get('IPO_Type', 'Mainboard')
-            ipo_tag = f" [{ipo_type}]"
-            
-            msg += f"🏢 *{ipo['Company']}*{ipo_tag}{closing_tag}\n"
-            msg += f"  📈 GMP: {gmp_pct}% (₹{gmp_rs})\n"
-            msg += f"  💰 Profit: ~₹{est_profit}\n"
-            msg += f"  📦 Size: ₹{size}Cr\n"
-            msg += f"  🏦 QIB Sub: {qib}x\n"
-            msg += f"  👥 Retail Sub: {ret}x\n"
-            
-            if ipo_type == 'SME':
-                msg += f"❌ Verdict: FAILED (SME GMP < 50%)\n\n"
-            else:
-                msg += f"❌ Verdict: FAILED (Mainboard GMP too low)\n\n"
-        
-        msg += f"⚠️ *Conclusion & Reason:*\n"
-        msg += f"Present ga apply cheyadaniki ye okka manchi IPO kuda ledu brother. Money safe ga unchandi, apply cheyoddu.\n\n"
-        msg += f"💡 *Enduku apply cheyoddu (Reason):*\n"
-        msg += reasoning_tenglish
+        if open_main:
+            msg += f"⚠️ *Conclusion & Reason:*\n"
+            msg += f"Present ga apply cheyadaniki ye okka manchi IPO kuda ledu brother. Money safe ga unchandi, apply cheyoddu.\n\n"
+            msg += f"💡 *Enduku apply cheyoddu (Reason):*\n"
+            msg += reasoning_tenglish
 
     print(msg)
 

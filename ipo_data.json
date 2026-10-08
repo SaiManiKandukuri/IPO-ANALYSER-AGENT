@@ -4,11 +4,11 @@
         "Open_Date": "2026-10-13",
         "Close_Date": "2026-10-15",
         "Price_Band": "271",
-        "GMP": 90.0,
-        "Expected_Gain_Pct": 33.21,
+        "GMP": 80.0,
+        "Expected_Gain_Pct": 29.52,
         "Issue_Size_Cr": 712.31,
         "Lot_Size": 55,
-        "Est_Profit_Rs": 4950,
+        "Est_Profit_Rs": 4400,
         "Retail_Sub": 0.0,
         "QIB_Sub": 0.0,
         "IPO_Type": "Mainboard",
@@ -16,8 +16,8 @@
         "Total_Sub": 0.0,
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Speculative / Risky",
-        "Composite_Score": 33.21,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Composite_Score": 29.52,
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Ravita Engineering Services",
@@ -37,27 +37,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
-    },
-    {
-        "Company": "Vaibhav Vyapaar",
-        "Open_Date": "2026-10-13",
-        "Close_Date": "2026-10-15",
-        "Price_Band": "52",
-        "GMP": 0.0,
-        "Expected_Gain_Pct": 0.0,
-        "Issue_Size_Cr": 40.54,
-        "Lot_Size": 2000,
-        "Est_Profit_Rs": 0,
-        "Retail_Sub": 0.0,
-        "QIB_Sub": 0.0,
-        "IPO_Type": "SME",
-        "NII_Sub": 0.0,
-        "Total_Sub": 0.0,
-        "Bidding_Status": "Open/Upcoming",
-        "Verdict": "Avoid / Skip",
-        "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "R.K.Fashion Accessories",
@@ -77,7 +57,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 2.08,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Paramount Syntex",
@@ -97,7 +77,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Acme India Industries",
@@ -117,7 +97,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 105.35,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "TNA Solutions",
@@ -137,7 +117,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 10.01,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Vishal Nirmiti",
@@ -157,7 +137,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.99,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Dove Soft",
@@ -177,7 +157,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "SJP Ultrasonic",
@@ -197,7 +177,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Nityas Gems & Jewellery",
@@ -217,7 +197,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.48,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Eventions",
@@ -237,7 +217,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Sollfege Smart Electronics",
@@ -257,7 +237,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Speculative / Risky",
         "Composite_Score": 20.13,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Omara Ventures India",
@@ -277,7 +257,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "EverestIMS Technologies",
@@ -297,7 +277,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 205.87,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Black Opal Consultants",
@@ -317,7 +297,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Papadmalji Agro Foods",
@@ -337,7 +317,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Vans Electroengineerings",
@@ -357,7 +337,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 305.52,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Shree TNB Polymers",
@@ -377,7 +357,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 8.3,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Pind Hospitality",
@@ -397,7 +377,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.15,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Shah Investor's Home",
@@ -417,7 +397,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 29.58,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Shivchem Agro",
@@ -437,7 +417,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 2.69,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "SRIT India",
@@ -457,7 +437,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 158.83,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Acme Universal Safezone 9",
@@ -477,7 +457,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 48.92,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Runwal Enterprises",
@@ -497,7 +477,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "German Green Steel",
@@ -517,7 +497,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 17.22,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Orient Cables",
@@ -537,7 +517,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 141.54,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Acevector",
@@ -557,7 +537,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Sai Urja Indo",
@@ -577,7 +557,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 12.14,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Himalayan Solar",
@@ -597,7 +577,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Dudani Retail",
@@ -617,7 +597,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.84,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Bench Mark Infotech Services",
@@ -637,7 +617,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 47.74,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Green Asia Impex",
@@ -657,7 +637,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "A-One Steels",
@@ -677,7 +657,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 18.31,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Roopa Screen",
@@ -697,7 +677,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 229.67,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Peshwa Wheat",
@@ -717,7 +697,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Moneyview",
@@ -737,7 +717,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 149.28,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "ArMee Infotech",
@@ -757,7 +737,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.81,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Swastika Infra",
@@ -777,7 +757,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 5.27,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Core Integra Consulting",
@@ -797,7 +777,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Elevate Campuses",
@@ -817,7 +797,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 1.97,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Pooja Logistics",
@@ -837,7 +817,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Liqvd Digital",
@@ -857,7 +837,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Adroit Industries",
@@ -877,7 +857,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "High Conviction Apply",
         "Composite_Score": 143.64,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "S.K.Offset",
@@ -897,7 +877,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Unitec Fibres",
@@ -917,7 +897,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Varmora Granito",
@@ -937,7 +917,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.73,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Himalaya Nutravedics",
@@ -957,7 +937,7 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Anand Seamless",
@@ -977,9 +957,29 @@
         "Bidding_Status": "Closed",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
+        "Company": "Robokidz Eduventures",
+        "Open_Date": "2026-09-21",
+        "Close_Date": "2026-09-23",
+        "Price_Band": "106",
+        "GMP": 86.0,
+        "Expected_Gain_Pct": 81.13,
+        "Issue_Size_Cr": 31.09,
+        "Lot_Size": 1200,
+        "Est_Profit_Rs": 103200,
+        "Retail_Sub": 0.0,
+        "QIB_Sub": 0.0,
+        "IPO_Type": "SME",
+        "NII_Sub": 0.0,
+        "Total_Sub": 0.0,
+        "Bidding_Status": "Closed",
+        "Verdict": "Speculative / Risky",
+        "Composite_Score": 81.13,
+        "Run_Timestamp": "2026-10-08 07:01:15"
+    },
+    {
         "Company": "nan",
         "Open_Date": "-",
         "Close_Date": "-",
@@ -997,7 +997,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1017,7 +1017,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1037,7 +1037,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1057,7 +1057,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1077,7 +1077,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1097,7 +1097,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1117,7 +1117,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1137,7 +1137,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1157,7 +1157,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1177,7 +1177,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1197,7 +1197,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1217,7 +1217,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1237,7 +1237,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1257,7 +1257,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1277,7 +1277,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1297,7 +1297,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1317,7 +1317,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1337,7 +1337,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1357,7 +1357,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1377,7 +1377,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1397,7 +1397,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1417,7 +1417,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1437,7 +1437,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1457,7 +1457,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1477,7 +1477,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1497,7 +1497,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1517,7 +1517,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1537,7 +1537,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1557,7 +1557,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1577,7 +1577,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1597,7 +1597,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1617,7 +1617,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1637,7 +1637,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1657,7 +1657,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1677,7 +1677,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1697,7 +1697,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1717,7 +1717,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1737,7 +1737,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1757,7 +1757,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1777,7 +1777,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1797,7 +1797,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1817,7 +1817,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1837,7 +1837,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1857,7 +1857,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1877,7 +1877,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1897,7 +1897,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1917,7 +1917,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1937,7 +1937,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1957,7 +1957,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1977,7 +1977,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -1997,7 +1997,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2017,7 +2017,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2037,7 +2037,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2057,7 +2057,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2077,7 +2077,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2097,7 +2097,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2117,7 +2117,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2137,7 +2137,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2157,7 +2157,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2177,7 +2177,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2197,7 +2197,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2217,7 +2217,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2237,7 +2237,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2257,7 +2257,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2277,7 +2277,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2297,7 +2297,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2317,7 +2317,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2337,7 +2337,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2357,7 +2357,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2377,7 +2377,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2397,7 +2397,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2417,7 +2417,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2437,7 +2437,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2457,7 +2457,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2477,7 +2477,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2497,7 +2497,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2517,7 +2517,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2537,7 +2537,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2557,7 +2557,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2577,7 +2577,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2597,7 +2597,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2617,7 +2617,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2637,7 +2637,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2657,7 +2657,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2677,7 +2677,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2697,7 +2697,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2717,7 +2717,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2737,7 +2737,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2757,7 +2757,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2777,7 +2777,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2797,7 +2797,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2817,7 +2817,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2837,7 +2837,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2857,7 +2857,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2877,7 +2877,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2897,7 +2897,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2917,7 +2917,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2937,7 +2937,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2957,7 +2957,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2977,7 +2977,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -2997,7 +2997,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3017,7 +3017,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3037,7 +3037,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3057,7 +3057,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3077,7 +3077,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3097,7 +3097,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3117,7 +3117,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3137,7 +3137,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3157,7 +3157,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3177,7 +3177,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3197,7 +3197,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3217,7 +3217,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3237,7 +3237,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3257,7 +3257,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3277,7 +3277,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3297,7 +3297,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3317,7 +3317,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3337,7 +3337,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3357,7 +3357,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3377,7 +3377,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3397,7 +3397,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3417,7 +3417,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3437,7 +3437,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3457,7 +3457,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3477,7 +3477,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3497,7 +3497,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3517,7 +3517,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3537,7 +3537,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3557,7 +3557,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3577,7 +3577,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3597,7 +3597,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3617,7 +3617,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3637,7 +3637,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3657,7 +3657,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3677,7 +3677,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3697,7 +3697,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3717,7 +3717,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3737,7 +3737,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3757,7 +3757,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3777,7 +3777,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3797,7 +3797,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3817,7 +3817,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3837,7 +3837,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3857,7 +3857,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3877,7 +3877,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3897,7 +3897,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3917,7 +3917,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3937,7 +3937,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3957,7 +3957,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3977,7 +3977,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -3997,7 +3997,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4017,7 +4017,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4037,7 +4037,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4057,7 +4057,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4077,7 +4077,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4097,7 +4097,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4117,7 +4117,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4137,7 +4137,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4157,7 +4157,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4177,7 +4177,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4197,7 +4197,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4217,7 +4217,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4237,7 +4237,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4257,7 +4257,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4277,7 +4277,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4297,7 +4297,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4317,7 +4317,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4337,7 +4337,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4357,7 +4357,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4377,7 +4377,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4397,7 +4397,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4417,7 +4417,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4437,7 +4437,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4457,7 +4457,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4477,7 +4477,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4497,7 +4497,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4517,7 +4517,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4537,7 +4537,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4557,7 +4557,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4577,7 +4577,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4597,7 +4597,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4617,7 +4617,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4637,7 +4637,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4657,7 +4657,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4677,7 +4677,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4697,7 +4697,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4717,7 +4717,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4737,7 +4737,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4757,7 +4757,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4777,7 +4777,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4797,7 +4797,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4817,7 +4817,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4837,7 +4837,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4857,7 +4857,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4877,7 +4877,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4897,7 +4897,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4917,7 +4917,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4937,7 +4937,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4957,7 +4957,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4977,7 +4977,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -4997,7 +4997,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5017,7 +5017,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5037,7 +5037,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5057,7 +5057,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5077,7 +5077,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5097,7 +5097,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5117,7 +5117,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5137,7 +5137,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5157,7 +5157,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5177,7 +5177,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5197,7 +5197,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5217,7 +5217,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5237,7 +5237,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5257,7 +5257,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5277,7 +5277,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5297,7 +5297,7 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "nan",
@@ -5317,14 +5317,14 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     },
     {
         "Company": "Jio Platforms",
         "Open_Date": "",
         "Close_Date": "",
         "Price_Band": "0",
-        "GMP": 174.0,
+        "GMP": 182.0,
         "Expected_Gain_Pct": 0.0,
         "Issue_Size_Cr": 0.0,
         "Lot_Size": 0,
@@ -5337,6 +5337,6 @@
         "Bidding_Status": "Open/Upcoming",
         "Verdict": "Avoid / Skip",
         "Composite_Score": 0.0,
-        "Run_Timestamp": "2026-10-08 06:01:16"
+        "Run_Timestamp": "2026-10-08 07:01:15"
     }
 ]
